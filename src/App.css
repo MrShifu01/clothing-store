@@ -1,17 +1,21 @@
+/* Styling the horizontal line */
 hr{
     max-width: 1000px;
 }
 
+/* Styling the products heading */
 .products-heading {
     padding: 40px 0;
 }
 
+/* Styling the products section */
 .products-section {
     width: 80%;
     max-width: 1000px;
     margin: 0 auto;
 }
 
+/* Styling the products container */
 .products-container {
     display: flex;
     justify-content: space-between;

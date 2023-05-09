@@ -1,9 +1,12 @@
+/* Importing a font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rokkitt&display=swap');
 
+/* General setup */
 * {
     box-sizing: border-box;
 }
 
+/* Styling the global body */
 body {
     margin: 0;
     background: linear-gradient(to right,#ee0979,#ff6a00);

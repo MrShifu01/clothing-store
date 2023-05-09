@@ -1,3 +1,4 @@
+// Importing some images and some CSS
 import "../index.css"
 import aboutImageOne from "./assets/about-image.jpg"
 import aboutImageTwo from "./assets/about-image2.jpg"
@@ -6,6 +7,7 @@ import aboutImageThree from "./assets/about-image3.jpg"
 function Landing () {
     return (
         <>
+            {/* About section giving info of the company with soem images */}
             <h1>Paradise Found: Sustainable Style with a Tropical Twist</h1>
                 <div class="about-container-one">
                     <p class="about-paragraph">Welcome to Coconut Clothing, where the tropics meet timeless style! Born out of a passion for eco-conscious fashion and the laid-back vibes of island living, Coconut Clothing is a refreshing breeze in the world of apparel.</p>

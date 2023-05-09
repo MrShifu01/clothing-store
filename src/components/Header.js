@@ -1,12 +1,15 @@
+// Importing some functions and modules
 import Navbar from "./Navbar"
 import Landing from "./Landing"
 import "../index.css"
 
-
+// Creating a header function
 function Header (props) {
+    // Declaring some variables to help identify a user and whether or not they are logged in
     const isLoggedIn = props.isLoggedIn
     const userName = props.name
    
+    // If Statement to handle logged in or not
     if (isLoggedIn) {
         return (
             <>
@@ -21,6 +24,7 @@ function Header (props) {
         return (
             <>
                 <Navbar />
+                {/* When a user is not logged in, it asks them to sign in or create an account */}
                 <div class="header-container">
                     <h1 class="logged-out-heading">Welcome to Coconut Clothing!</h1> 
                     <h3 class="logged-out-subheading">Please Sign In or Create an Account</h3>

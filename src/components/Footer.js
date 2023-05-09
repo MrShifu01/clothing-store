@@ -1,5 +1,6 @@
 import '../index.css'
 
+// A footer component that is added to the bottom of the App.js component
 function Footer () {
     return (
         <>
