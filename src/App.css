@@ -1,0 +1,19 @@
+hr{
+    max-width: 1000px;
+}
+
+.products-heading {
+    padding: 40px 0;
+}
+
+.products-section {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.products-container {
+    display: flex;
+    justify-content: space-between;
+    
+}

@@ -1,7 +1,7 @@
 import "../index.css"
-import aboutImageOne from "./about-image.jpg"
-import aboutImageTwo from "./about-image2.jpg"
-import aboutImageThree from "./about-image3.jpg"
+import aboutImageOne from "./assets/about-image.jpg"
+import aboutImageTwo from "./assets/about-image2.jpg"
+import aboutImageThree from "./assets/about-image3.jpg"
 
 function Landing () {
     return (
