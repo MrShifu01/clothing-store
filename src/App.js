@@ -11,10 +11,9 @@ function App(props) {
   // If Statement to check for logged in, coming from Index.js
   if (isLoggedIn) {
     return (
-      <>
+      <div className='App'>
       {/* Adding the components */}
         <Header isLoggedIn={true} name="Chris" />
-        
         <section class="products-section">
           <hr/>
           <h1 class="products-heading">Latest Products</h1>
@@ -28,7 +27,7 @@ function App(props) {
           </div>
         </section>
         <Footer />
-      </>
+      </div>
   );
   } else {
     return (
@@ -43,3 +42,6 @@ function App(props) {
 }
 
 export default App;
+
+
+
